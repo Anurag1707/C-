@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){
+ int main(){
     int n=2;
 if(n==1){
     cout<<"prime";
@@ -16,7 +16,7 @@ if(found==1){
 }else{
     cout<<"not prime";
 }
-
+ 
 
 
 }
