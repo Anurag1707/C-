@@ -1,19 +1,20 @@
 #include<iostream>
 using namespace std;
 int main(){
-for(int i=0;i<3;i++){
-    for(int k=i;k>=0;k--){
-        cout<<" ";
+    int n=2;
+if(n==1){
+    cout<<"prime";
+}
+ int found=1;
+for(int i=2;i<n;i++){
+    if(n%2==0){
+        found=0;
     }
-    for(int j=i;j<3;j++){
-        cout<<"*";
-    }
-    for(int p=i;p<2;p++){
-        cout<<"*";
-    
-    }
-    
-    cout << endl;
+}
+if(found==1){
+    cout<<"Prime no.";
+}else{
+    cout<<"not prime";
 }
 
 
