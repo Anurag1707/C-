@@ -30,7 +30,7 @@ int main(){
             cout<<" ";
         }
        
-        for(int o=2;o>i;o--){
+        for(int p=2;p>i;p--){
             cout<<"*";
         }
          cout<<endl;
